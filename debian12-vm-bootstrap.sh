@@ -8,12 +8,12 @@
 # git clone https://github.com/rcmug/snippet-sandbox.git
 # bash snippet-sandbox/debian12-vm-bootstrap.sh
 
+apt-get install sudo -y
+
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
-
-sudo apt-get install sudo -y
 
 sudo apt-get install emacs-nox -y
 sudo apt-get install build-essential -y

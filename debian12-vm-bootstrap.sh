@@ -15,6 +15,9 @@ sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
+rm /etc/ssh/ssh_host_*
+ssh-keygen -A
+
 sudo apt-get install emacs-nox -y
 sudo apt-get install build-essential -y
 sudo apt-get install net-tools -y
